@@ -1,0 +1,26 @@
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
+form:
+  tabs:
+    - name: tabGeneral
+      label: General
+      fields:
+        - name: title
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Title
+        - name: description
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Description
+          rows: 3
+        - name: prepTime
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Preparation Time
+        - name: cookTime
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Cooking Time
+        - name: servingSize
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Serving Size

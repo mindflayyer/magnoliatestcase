@@ -1,0 +1,7 @@
+package com.crescendocollective.setup;
+
+import com.crescendocollective.magnolia.essentials.setup.MagnoliaEssentialsModuleVersionHandler;
+
+public class CrescendoMagnoliaChallengeVersionHandler extends MagnoliaEssentialsModuleVersionHandler {
+
+}

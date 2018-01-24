@@ -1,0 +1,41 @@
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
+form:
+  tabs:
+    - name: tabGeneral
+      label: General
+      fields:
+        - name: title
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Title
+
+        - name: recipient
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Recipient
+
+        - name: username
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Username
+
+        - name: password
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Password
+
+        - name: smtpServer
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: SMTP Server
+
+        - name: smtpPort
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: SMTP Port
+
+        - name: smtpTlsEnabled
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: TLS enabled
+
+        - name: smtpAuth
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Auth required

@@ -1,0 +1,13 @@
+dialog: crescendo-magnolia-challenge:pages/contact
+renderType: freemarker
+title: Contact Us
+templateScript: /crescendo-magnolia-challenge/templates/pages/contact/contact.ftl
+areas:
+  main:
+    autoGeneration:
+      content:
+        contactForm:
+          nodeType: mgnl:component
+          templateId: crescendo-magnolia-challenge:components/contact/contactForm
+      generatorClass: info.magnolia.rendering.generator.CopyGenerator
+    type: single

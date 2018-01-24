@@ -1,0 +1,10 @@
+syntax:glob
+.idea/
+*.iml
+overlays/
+.DS_Store
+._.DS_Store
+node_modules/
+derby.log
+crescendo-magnolia-challenge-webapp/src/main/webapp/WEB-INF/config/local/magnolia.properties
+target/

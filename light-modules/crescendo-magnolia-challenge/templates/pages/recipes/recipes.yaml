@@ -1,0 +1,13 @@
+dialog: crescendo-magnolia-challenge:pages/global
+renderType: freemarker
+title: Recipes
+templateScript: /crescendo-magnolia-challenge/templates/pages/recipes/recipes.ftl
+areas:
+  main:
+    autoGeneration:
+      content:
+        contactForm:
+          nodeType: mgnl:component
+          templateId: crescendo-magnolia-challenge:components/recipes/recipe
+      generatorClass: info.magnolia.rendering.generator.CopyGenerator
+    type: single

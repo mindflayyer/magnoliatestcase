@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module SYSTEM "module.dtd" >
+<module>
+  <name>crescendo-magnolia-challenge-core</name>
+  <displayName>${project.name}</displayName>
+  <description>${project.description}</description>
+  <class>com.crescendocollective.CrescendoMagnoliaChallenge</class>
+  <versionHandler>com.crescendocollective.setup.CrescendoMagnoliaChallengeVersionHandler</versionHandler>
+  <version>${project.version}</version>
+
+  <dependencies>
+    <dependency>
+      <name>core</name>
+      <version>5.4.9/*</version>
+    </dependency>
+    <dependency>
+      <name>rendering</name>
+      <version>5.4.9/*</version>
+    </dependency>
+    <dependency>
+      <name>templating</name>
+      <version>5.4.9/*</version>
+    </dependency>
+    <dependency>
+      <name>templating-jsp</name>
+      <version>5.4.9/*</version>
+    </dependency>
+    <dependency>
+      <name>site</name>
+      <version>1.0.2/*</version>
+    </dependency>
+    <dependency>
+      <name>blossom</name>
+      <version>3.1.3/*</version>
+    </dependency>
+  </dependencies>
+</module>
